@@ -1,4 +1,4 @@
-#A DOMAIN MODEL is a representation of real-world concepts in software. 
+require 'pry' #A DOMAIN MODEL is a representation of real-world concepts in software. 
 
 #The concept of domain modeling is key in object orientation. In object orientation, we think of our classes as templates for objects. The instances of our classes are thought of as objects. For example, a Person class produces people objects that have attributes and behaviors, as described and enacted by instance methods.
 
@@ -25,6 +25,7 @@ class School
         end
 
         roster[grade] << name
+        binding.pry
     end
 
     def grade(number)
